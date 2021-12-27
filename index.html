@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div id="expert">
+        <p id="pro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque dolor dolorem odio corrupti cum ullam praesentium inventore illum aliquam id ipsum tempora eveniet ratione asperiores, odit dicta consectetur dolorum.
+        </p>
+        <p id="legend">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque dolor dolorem odio corrupti cum ullam praesentium inventore illum aliquam id ipsum tempora eveniet ratione asperiores, odit dicta consectetur dolorum.
+        </p>
+    </div>
+    <script>
+       document.getElementById("expert").style.color="blue"; 
+       document.getElementById("expert").style.fontFamily="verdana";
+       document.getElementById("expert").style.fontStyle="italic"; -->
+        
+    <!-- </script> -->
+
+
+    <!-- <script>
+        var x = 500;
+       x += 20;
+       console.log(x);
+
+       x -= 400;
+       console.log(x);
+
+       x *= 50;
+       console.log(x);
+    </script> -->
+
+
+
+
+
+
+   <!-- <script>
+       let word = "listen"
+       document.write("silent"())
+   </script> -->
+   <!-- <p id="demo">
+       listen
+   </p>
+   <script>
+  
+        let word = "listen"
+        var txt = word.replace("listen","silent");
+        document.getElementById("demo").innerHTML = txt;
+   </script> -->
+
+
+   <!-- <script>
+     var str = "listen";
+     var chars = str.split("");
+     var arra = "" + chars[2] + chars[1] + chars[0] + chars[4] + chars[5] + chars[3]
+     console.log(arra);
+   </script> -->
+
+   <!-- <script>
+    var days = 20
+    for (var i = 1;  days >= i; days--) 
+    {
+        console.log("this is days" + [days]);
+    }
+   </script>  -->
+
+
+
+    <!-- <script>
+        var person = 5;
+        if (person <  25) {
+        console.log('not qualified')
+        }
+        else if (person <= 50) {
+        console.log('qualified')
+        }
+
+    </script> -->
+
+    <!-- <script>
+        
+        if(age <= 25 &&  amountOfExperience > 2 == 10)
+        {
+            console.log ()
+        }
+    </script> -->
+    
+
+    <!-- <script>
+        let age = 20;
+        if (age >= 25 && age < 50 ) {
+            console.log ('success');
+        }
+        else if (age <= 25) {
+            console.log ('failed');
+        }
+        else if (age >= 50) {
+            console.log ('failed');
+        }
+        
+
+
+    </script> -->
+
+
+
+
+    <!-- <script>
+        function myFunction() {
+            var x, text;
+        
+            // Get the value of the input field with id="numb"
+            x = document.getElementById("numb").value;
+            3
+            // If x is Not a Number or less than one or greater than 10
+            if (isNaN(x) || x < 1 || x > 10) {
+                text = "Input not valid";
+            } else {
+                text = "Input OK";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script> -->
+
+
+
+
+
+
+ 
+ <div class="center">
+ <div class="header">
+Login Form</div>
+<form>
+  <input type="text" placeholder="Email or Username">
+  <i class="far fa-envelope"></i>
+  <input id="pswrd" type="password" placeholder="Password">
+  <i class="fas fa-lock" onclick="show()"></i>
+  <input type="submit" value="Sign in">
+  <a href="#">Forgot Password?</a>
+ </form>
+</div>
+<script>
+  function show(){
+   var pswrd = document.getElementById('pswrd');
+   var icon = document.querySelector('.fas');
+   if (pswrd.type === "password") {
+    pswrd.type = "text";
+    pswrd.style.marginTop = "20px";
+    icon.style.color = "#7f2092";
+   }else{
+    pswrd.type = "password";
+    icon.style.color = "grey";
+   }
+  }
+ </script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
